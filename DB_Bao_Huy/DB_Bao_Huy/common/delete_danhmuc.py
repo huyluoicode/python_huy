@@ -7,7 +7,7 @@ def delete_danhmuc(id_danhmuc: int):
     """
     conn = connect_mysql()
     if conn is None:
-        print("❌ Không thể kết nối MySQL.")
+        print("❌ Không thể kết nối MySQL database.")
         return False
 
     try:
